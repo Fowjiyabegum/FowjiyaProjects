@@ -10,10 +10,8 @@ import org.openqa.selenium.support.PageFactory;
 import com.omrbranch.baseclass.BaseClass;
 
 public class BookHotelPage extends BaseClass {
-public void method1()
-{
-System.out.println("Method 2");
-}
+
+
 	By textBookHotel=By.xpath("//android.widget.TextView[@resource-xpath ='book_hotel_text']");
 	By rdoBookMyself=By.xpath("//android.widget.TextView[@text='Myself']");
 	By ddnSalutation=By.xpath("//android.widget.TextView[@text='Select Salutation']");
@@ -46,7 +44,17 @@ System.out.println("Method 2");
 	By txtCvv=By.xpath("//android.widget.EditText[@resource-id='cvv']");
 	By btnSubmit=By.xpath("//android.widget.Button[@resource-id='submitBtn']");
 	
-		
 	
-		
+	
+	public void method2()
+	{
+	System.out.println("Method 2");
+	}
+
+
+		public void method1()
+		{
+			System.out.println("Method1");
+		}
+	
 }
